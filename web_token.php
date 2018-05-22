@@ -1,7 +1,7 @@
 <?php
 include "Http.class.php";
-const APPID = "wx860c97122061b33c";
-const APPSEC = "07cbaf39223a736e7d7c0489a9e68547";
+const APPID = "";
+const APPSEC = "";
 
 
 //通过用户的code，获取access_token和openid

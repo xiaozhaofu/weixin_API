@@ -20,7 +20,7 @@
 				array(
 					'type' => 'view',
 					'name' => '微信2.0测试',
-					'url' => 'http://weixin.linktech.cn/v2/framework/vux3/dist/#/'
+					'url' => 'http://weixin.linktech.cn'
 				),
 
 				// scancode_push
@@ -60,13 +60,13 @@
 				array(
 					'type' => 'view',
 					'name' => '专属QQ客服',
-					'url' => 'http://wpa.qq.com/msgrd?v=3&uin=97539165&site=qq&menu=yes'
+					'url' => 'http://wpa.qq.com/msgrd?v=3&uin=54619564&site=qq&menu=yes'
 				),
 				// pic_photo_or_album
 				array(
 					'type' => 'view',
 					'name' => '意向合作',
-					'url' => 'http://mp.weixin.qq.com/s?__biz=MzU4MzEzODA2MQ==&mid=100000038&idx=1&sn=a208060241edc8b799bcd06ab840e540&chksm=7dacef444adb665224b268225b8ee1874edeb0204e4c3ab7add1321790670fd612e73aa2ee75#rd'
+					'url' => ''
 				),
 				//
 			)

@@ -9,8 +9,10 @@ class Message
 
     public static function init()
     {
-        // 获取请求的原始字符串
+        // 获取请求的原始字符串,php5用这个
         $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
+        //php7.1的用这个方法获取
+        // $postStr = file_get_contents("php://input");
         self::$str1 = $postStr;
 
         self::$postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);

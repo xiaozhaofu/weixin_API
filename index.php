@@ -5,7 +5,8 @@
         include "downloadImg.php";
 		//php7.1的用这个方法获取
             $postStr = file_get_contents("php://input");
-       	
+       	// 获取请求的原始字符串,php5用这个方法
+        // $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
 
        	//file_put_contents("data.txt", Message::$str1."\r\n", FILE_APPEND);
 		if (!empty($postStr)){
