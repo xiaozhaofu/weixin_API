@@ -35,5 +35,5 @@ $filename = time().'.png';
 // unlink("./uploads/image/1526978565.png");
 
 $img = getImage("/wechatAPI/qrcode/makeqrcode.php?qrlink=" . urlencode($url),$dir,$filename);
-// echo "47.94.215.115/test/qrcode/makeqrcode.php?qrlink=" . urlencode($url);
+
 var_dump($img);
