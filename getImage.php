@@ -5,6 +5,7 @@
  * Date: 2018/5/22 0022
  * Time: 14:27
  */
+//====获取远程二维码，并保存到指定的目录========
 // 下载远程文件到本地
 function getImage($url,$save_dir='',$filename=''){
     // 根据url获取远程文件
@@ -27,6 +28,6 @@ function getImage($url,$save_dir='',$filename=''){
 
 }
 
-$dir = realpath("./")."/uploadImg/";
+$dir = realpath("./")."/uploadImg/";    //输出规范的绝对路径名称
 $filename = time().'.png';
 $img = getImage("/makeqrcode.php?qrlink=" . urlencode($url),$dir,$filename);
