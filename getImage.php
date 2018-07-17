@@ -20,6 +20,7 @@ function getImage($url,$save_dir='',$filename=''){
     curl_close($ch);
     // 把图片保存到指定目录下的指定文件
     file_put_contents($save_dir.$filename,$res);
+
     return array(
         'file_name'=>$filename,
         'save_path'=>$save_dir.$filename,
